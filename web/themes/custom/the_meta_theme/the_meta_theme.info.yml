@@ -1,0 +1,19 @@
+name: Meta theme
+description: 'This theme describes the meta tags'
+type: theme
+core_version_requirement: ^9 || ^10
+base theme: false
+package: developer theme
+
+libraries:
+  - the_meta_theme/global-styling
+
+regions:
+  head : "Header_Section"
+  banSection : "Banner_Section"
+  conSection : "Content_Section"
+  sidBar : "Sidebar_Section"
+  footSection : "Footer_Section"
+
+
+
