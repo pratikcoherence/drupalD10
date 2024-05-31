@@ -1,0 +1,17 @@
+name: Star Theme
+type: theme
+description: 'This is a custom theme name star theme'
+package: custom theme
+core_version_requirement: ^9 || ^10
+version: 1.0.0
+base theme: false
+
+libraries:
+  - star_theme/global-styling
+
+regions:
+  menu_navigation: Menu Navigation
+  header: Header
+  main_content: Main Content
+  side_bar: Side Bar
+  footer: Footer
