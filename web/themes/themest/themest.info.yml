@@ -1,0 +1,10 @@
+name: themest custom theme
+type: theme
+base theme: false 
+descriptiom: "the hats off theme in drupal"
+core_version_requirement : ^9 || ^10
+version: 1.0
+package: custom
+
+libraries:
+  - hats_off/global-styling
