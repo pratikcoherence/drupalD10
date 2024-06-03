@@ -1,0 +1,7 @@
+global-styling:
+    css:
+      theme:
+        assets/bootstrap.min.css: {} 
+        assets/style.css: {}
+    js:
+      assets/bootstrap.bundle.min.js: {}

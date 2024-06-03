@@ -1,0 +1,18 @@
+name: Meta theme
+description: 'This theme describes the styling of the website'
+type: theme
+core_version_requirement: ^9 || ^10
+package: Developer package
+version: 2.0.0
+base theme: false
+
+libraries:
+  - meta_theme/global-styling
+
+regions:
+  sitebrand: "Site Branding"
+  headers: "Header Section" 
+  banners: "Banner Section"
+  contents: "Main Content"
+  sidebars: "Side Bar"
+  footers: "Footer Section"
