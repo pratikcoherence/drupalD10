@@ -1,12 +1,44 @@
-<div class = "header">
-{{ page.headers }}
-{{ page.sitebrand }}
+<header class = "bg-light>
+    <div class = "top-header">
+       <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+                <div class="col-sm-6 col-lg-4 ">
+                     {{ page.sitebrand }}
+                </div>
+                <div class=" justify-content-end col-sm-6 col-lg-8 collapse navbar-collapse" id="navbarSupportedContent">
+                     {{ page.headers }}
+                 </div>
+            </div>
+        <nav>
+    </div>
+</header>
+<div class="container">
+    <div class = "content">
+        {{ page.contents }}
+    </div>
+</div>
+<div class="container">
+  {{ page.sidebars}}
 </div>
 
-<div>
-{{ page.sideBars}}
-</div>
+<section class="rate py-5">
+        <div class="container sm">
+            <div class="row pb-5 border-bottom">
+                <div class="col-12 col-sm-4 col-lg-4 d-flex flex-lg-row flex-column text-lg-start text-center">
+                    {{ content.field_img_fields }}
+                </div>
 
-<div>
-{{ page.contents }}
+                <div class="col-12  col-sm-4 col-lg-4 d-flex flex-lg-row flex-column text-lg-start text-center">
+                    {{ content.field_img_fields }}
+                </div>
+                <div class="col-12  col-sm-4 col-lg-4 d-flex flex-lg-row flex-column text-lg-start text-center">
+                    {{ content.field_img_fields }}
+                </div>
+            </div>
+        </div>
+</section>
+<footer class = "bg-secondary py-5">
+<div class = "container">
+{{page.footers}}
 </div>
+</footer>
