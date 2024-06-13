@@ -1,0 +1,11 @@
+uuid: d2298666-6237-4e29-8017-fe2ebb468f1b
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - node.type.achivemennts
+id: node.achivemennts
+target_entity_type_id: node
+target_bundle: achivemennts
+default_langcode: site_default
+language_alterable: false
