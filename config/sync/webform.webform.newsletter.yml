@@ -12,7 +12,17 @@ id: newsletter
 title: newsletter
 description: ''
 categories: {  }
-elements: null
+elements: |-
+  email:
+    '#type': email
+    '#title': Email
+    '#title_display': invisible
+    '#placeholder': 'Enter Your Email'
+    '#default_value': '[current-user:mail]'
+  actions:
+    '#type': webform_actions
+    '#title': 'Submit button(s)'
+    '#submit__label': SignUp
 css: ''
 javascript: ''
 settings:
