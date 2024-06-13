@@ -1,0 +1,6 @@
+global-styling:
+  css:
+    theme:
+      assest/css/style.css: {}
+  js:  
+    assest/js/test.js: {}
