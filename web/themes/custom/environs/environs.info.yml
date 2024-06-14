@@ -1,0 +1,16 @@
+name: Environs
+description: "The environment protect theme."
+type: theme
+core_version_requirement: ^9 || ^10
+package: Project
+version: 2.1
+base theme: false
+
+libraries:
+  - environs/global-styling
+
+regions:
+  contact: 'Contacts'
+  top: 'Top Regions'
+  content: 'Content Regions'
+  bottom: 'Bottom Regions'
