@@ -1,8 +1,0 @@
-uuid: 8a1f570b-ac82-4b7c-ba9d-63633df39068
-langcode: en-gb
-status: true
-dependencies: {  }
-id: about_us
-label: 'About Us'
-revision: 0
-description: 'Describes the about us page.'
