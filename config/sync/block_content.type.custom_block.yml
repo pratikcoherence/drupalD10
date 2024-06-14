@@ -1,8 +1,0 @@
-uuid: ff7c83c5-43ee-4d94-a21f-fbae2bde954a
-langcode: en-gb
-status: true
-dependencies: {  }
-id: custom_block
-label: Custom_block
-revision: 0
-description: 'Creates custom block'
