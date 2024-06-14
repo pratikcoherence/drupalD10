@@ -1,0 +1,8 @@
+uuid: 757438da-92e5-4ced-9afb-87c0822e0e5c
+langcode: en-gb
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+revision: 0
+description: 'Used this block type for creating contact details blocks.'

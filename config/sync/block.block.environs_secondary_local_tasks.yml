@@ -1,0 +1,22 @@
+uuid: 5ace3240-20f1-46d4-a91c-818edc3156a9
+langcode: en-gb
+status: false
+dependencies:
+  theme:
+    - environs
+_core:
+  default_config_hash: ydSxdq7R66I8UMC460rOzlfzvlUL4VRbdwc6z9DWaUI
+id: environs_secondary_local_tasks
+theme: environs
+region: contact
+weight: 0
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: 'Secondary tabs'
+  label_display: '0'
+  provider: core
+  primary: false
+  secondary: true
+visibility: {  }

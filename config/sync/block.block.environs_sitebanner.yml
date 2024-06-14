@@ -1,0 +1,25 @@
+uuid: 24cac218-3415-4664-968f-379f13105014
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:banner:9635015a-c78e-4735-9255-1463cb6a1f12'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_sitebanner
+theme: environs
+region: banner
+weight: -10
+provider: null
+plugin: 'block_content:9635015a-c78e-4735-9255-1463cb6a1f12'
+settings:
+  id: 'block_content:9635015a-c78e-4735-9255-1463cb6a1f12'
+  label: 'Site Banner'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

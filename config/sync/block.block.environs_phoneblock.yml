@@ -1,0 +1,25 @@
+uuid: 81516c0f-7720-44c0-ad23-b8f66672aacb
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:contact:0f273582-20c7-46e2-8d90-39af539559ef'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_phoneblock
+theme: environs
+region: contact
+weight: -8
+provider: null
+plugin: 'block_content:0f273582-20c7-46e2-8d90-39af539559ef'
+settings:
+  id: 'block_content:0f273582-20c7-46e2-8d90-39af539559ef'
+  label: 'Phone Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

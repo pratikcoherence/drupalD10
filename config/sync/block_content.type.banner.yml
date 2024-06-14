@@ -1,0 +1,8 @@
+uuid: dd9d3331-d731-4577-bb43-c89afaadfecb
+langcode: en-gb
+status: true
+dependencies: {  }
+id: banner
+label: Banner
+revision: 0
+description: 'This block is used for site banner.'

@@ -1,0 +1,25 @@
+uuid: 7e0bba25-0e98-4eb3-ac10-d4e3602ae111
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:contact:a5da6ed8-776f-4e1b-bf12-fe4cd9484608'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_emailblock
+theme: environs
+region: contact
+weight: -9
+provider: null
+plugin: 'block_content:a5da6ed8-776f-4e1b-bf12-fe4cd9484608'
+settings:
+  id: 'block_content:a5da6ed8-776f-4e1b-bf12-fe4cd9484608'
+  label: 'Email Block'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
