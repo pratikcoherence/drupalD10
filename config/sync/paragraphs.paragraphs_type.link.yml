@@ -1,0 +1,10 @@
+uuid: 123b6ee6-1570-4fbf-be79-8f13abe6e330
+langcode: en-gb
+status: true
+dependencies: {  }
+id: link
+label: Link
+icon_uuid: null
+icon_default: null
+description: 'This is a Link paragraph'
+behavior_plugins: {  }

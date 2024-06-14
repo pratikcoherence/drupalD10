@@ -1,0 +1,10 @@
+uuid: f41774e5-3141-466b-8bd2-de36f575b493
+langcode: en-gb
+status: true
+dependencies: {  }
+id: subtitle
+label: Subtitle
+icon_uuid: null
+icon_default: null
+description: 'This is a Subtitle  paragraph'
+behavior_plugins: {  }
