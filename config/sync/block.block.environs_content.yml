@@ -1,6 +1,6 @@
-uuid: 1343addb-4d82-4c0c-9e12-5b81d26cb735
+uuid: 16b80f0a-be1a-4fee-a9c0-09119d22bdc5
 langcode: en-gb
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
 id: environs_content
 theme: environs
-region: content
-weight: 0
+region: banner
+weight: -8
 provider: null
 plugin: system_main_block
 settings:

@@ -1,4 +1,4 @@
-uuid: f5420d8d-4cca-4fbf-b8ed-23c48d86c86c
+uuid: ee45c963-9832-48e2-9130-eb2bd9f60f85
 langcode: en-gb
 status: true
 dependencies:
@@ -11,7 +11,7 @@ _core:
 id: environs_site_branding
 theme: environs
 region: top
-weight: 7
+weight: -8
 provider: null
 plugin: system_branding_block
 settings:

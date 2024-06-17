@@ -1,6 +1,6 @@
-uuid: 1e9edafa-ada3-4c40-bb87-8bbd68115c76
+uuid: a958b5b4-f797-4a23-a99e-694978180772
 langcode: en-gb
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
 id: environs_breadcrumbs
 theme: environs
-region: top
-weight: 2
+region: contact
+weight: 1
 provider: null
 plugin: system_breadcrumb_block
 settings:

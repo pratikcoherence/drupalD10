@@ -1,6 +1,6 @@
-uuid: 53be8858-4890-4ffc-9ba1-15753228f327
+uuid: 2abe1a98-bc65-4c2c-9b99-67b3e153672b
 langcode: en-gb
-status: true
+status: false
 dependencies:
   config:
     - system.menu.account
@@ -12,8 +12,8 @@ _core:
   default_config_hash: gmxYWWHmgbe0Pnv8y48ZLSLH5mEHejOjAP6RLxUfdzU
 id: environs_account_menu
 theme: environs
-region: top
-weight: 0
+region: contact
+weight: -1
 provider: null
 plugin: 'system_menu_block:account'
 settings:
