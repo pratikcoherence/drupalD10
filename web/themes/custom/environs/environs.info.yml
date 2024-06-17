@@ -12,5 +12,6 @@ libraries:
 regions:
   contact: 'Contacts'
   top: 'Top Regions'
+  banner: 'Banner'
   content: 'Content Regions'
   bottom: 'Bottom Regions'
