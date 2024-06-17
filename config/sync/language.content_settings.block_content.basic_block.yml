@@ -1,0 +1,22 @@
+<<<<<<<< HEAD:config/sync/language.content_settings.block_content.banner.yml
+uuid: 64568806-81a3-4e11-a026-25a1ab996310
+========
+uuid: 07ede5f0-b985-4f71-abb3-555f53a2f992
+>>>>>>>> fcfaebb (Latest config.):config/sync/language.content_settings.block_content.basic_block.yml
+langcode: en-gb
+status: true
+dependencies:
+  config:
+<<<<<<<< HEAD:config/sync/language.content_settings.block_content.banner.yml
+    - block_content.type.banner
+id: block_content.banner
+target_entity_type_id: block_content
+target_bundle: banner
+========
+    - block_content.type.basic_block
+id: block_content.basic_block
+target_entity_type_id: block_content
+target_bundle: basic_block
+>>>>>>>> fcfaebb (Latest config.):config/sync/language.content_settings.block_content.basic_block.yml
+default_langcode: site_default
+language_alterable: false

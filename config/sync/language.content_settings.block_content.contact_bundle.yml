@@ -1,11 +1,11 @@
-uuid: 64568806-81a3-4e11-a026-25a1ab996310
+uuid: 2f93283f-93d8-4127-a9a8-7ca66ba30e1c
 langcode: en-gb
 status: true
 dependencies:
   config:
-    - block_content.type.banner
-id: block_content.banner
+    - block_content.type.contact_bundle
+id: block_content.contact_bundle
 target_entity_type_id: block_content
-target_bundle: banner
+target_bundle: contact_bundle
 default_langcode: site_default
 language_alterable: false

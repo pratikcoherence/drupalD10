@@ -1,6 +1,6 @@
-uuid: 7e6c1b5b-3479-44c6-9912-496475d22f19
+uuid: a4f0dc20-d0a2-4f7e-ba56-db0c5fac1087
 langcode: en-gb
-status: false
+status: true
 dependencies:
   theme:
     - environs
@@ -8,8 +8,8 @@ _core:
   default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
 id: environs_page_title
 theme: environs
-region: contact
-weight: -7
+region: top
+weight: -6
 provider: null
 plugin: page_title_block
 settings:

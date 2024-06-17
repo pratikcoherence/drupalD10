@@ -1,6 +1,6 @@
-uuid: 211c5494-3694-4190-ab95-64babd604eb2
+uuid: b5f9b79a-a909-4b16-926d-2700a666f129
 langcode: en-gb
-status: false
+status: true
 dependencies:
   theme:
     - environs
@@ -8,8 +8,8 @@ _core:
   default_config_hash: nGE3EoPQQaQCuqTUtZgw0-KIzmrqdKDzdNQf2JyPUt4
 id: environs_primary_local_tasks
 theme: environs
-region: contact
-weight: -3
+region: top
+weight: -2
 provider: null
 plugin: local_tasks_block
 settings:

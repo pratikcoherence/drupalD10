@@ -1,0 +1,19 @@
+uuid: 9dcfe1d8-a165-44ae-b510-dd42926503b1
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - block_content
+id: block_content.field_contact_block_reference
+field_name: field_contact_block_reference
+entity_type: block_content
+type: entity_reference
+settings:
+  target_type: block_content
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,6 +1,6 @@
-uuid: 5040d129-d69e-4a5f-b46f-6f02688db591
+uuid: 57aaf18b-ef1b-4e39-8a38-6848e53583db
 langcode: en-gb
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
 id: environs_powered
 theme: environs
-region: contact
-weight: 3
+region: top
+weight: 5
 provider: null
 plugin: system_powered_by_block
 settings:

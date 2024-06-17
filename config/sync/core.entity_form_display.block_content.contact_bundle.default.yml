@@ -1,24 +1,24 @@
-uuid: e49e2ee5-7c53-4c97-a207-459f7322f6d3
+uuid: a9ee5776-c3c3-4331-af88-9459793436c6
 langcode: en-gb
 status: true
 dependencies:
   config:
-    - block_content.type.contact
-    - field.field.block_content.contact.field_contact_link
-  module:
-    - link
-id: block_content.contact.default
+    - block_content.type.contact_bundle
+    - field.field.block_content.contact_bundle.field_contact_block_reference
+id: block_content.contact_bundle.default
 targetEntityType: block_content
-bundle: contact
+bundle: contact_bundle
 mode: default
 content:
-  field_contact_link:
-    type: link_default
-    weight: 28
+  field_contact_block_reference:
+    type: entity_reference_autocomplete
+    weight: 27
     region: content
     settings:
-      placeholder_url: ''
-      placeholder_title: ''
+      match_operator: CONTAINS
+      match_limit: 10
+      size: 60
+      placeholder: ''
     third_party_settings: {  }
   info:
     type: string_textfield

@@ -1,6 +1,6 @@
-uuid: ddfd753e-2a9e-4784-84ad-a875e2a402fc
+uuid: c7ef1774-2392-41f3-8540-a981d355e590
 langcode: en-gb
-status: false
+status: true
 dependencies:
   theme:
     - environs
@@ -8,8 +8,8 @@ _core:
   default_config_hash: Q9_2whdOj1YIomfvsIfopROW4FT_X5pY0DjdOiOaQ5U
 id: environs_primary_admin_actions
 theme: environs
-region: contact
-weight: -6
+region: top
+weight: -5
 provider: null
 plugin: local_actions_block
 settings:

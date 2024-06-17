@@ -1,6 +1,6 @@
-uuid: 30f9151b-b80a-4b64-bc8b-b366210bd882
+uuid: 232b6f11-b819-4457-a5e2-2270d98a0474
 langcode: en-gb
-status: false
+status: true
 dependencies:
   module:
     - node
@@ -10,8 +10,8 @@ _core:
   default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
 id: environs_syndicate
 theme: environs
-region: contact
-weight: 4
+region: top
+weight: 6
 provider: null
 plugin: node_syndicate_block
 settings:

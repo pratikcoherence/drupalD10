@@ -1,8 +1,8 @@
-uuid: a720f6de-979d-4723-9205-2b2e53d401c1
+uuid: 9bdba426-c861-40bd-a60c-5530d292d93a
 langcode: en-gb
 status: true
 dependencies: {  }
 id: about_us
 label: 'About Us'
 revision: 0
-description: 'This block type is used for about us section.'
+description: 'Describes the about us page.'

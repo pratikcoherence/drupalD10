@@ -1,4 +1,4 @@
-uuid: eec9db7b-46a8-49f0-8cc7-839015ebfcee
+uuid: 8ebbe790-ceee-488e-96f3-8384e410a7fc
 langcode: en-gb
 status: true
 dependencies:
@@ -13,7 +13,7 @@ _core:
 id: environs_main_menu
 theme: environs
 region: top
-weight: -7
+weight: 4
 provider: null
 plugin: 'system_menu_block:main'
 settings:

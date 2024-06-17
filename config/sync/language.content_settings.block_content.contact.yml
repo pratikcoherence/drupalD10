@@ -1,4 +1,8 @@
-uuid: 7dd0be94-3691-4b2d-aa8d-2626cc254fcd
+<<<<<<<< HEAD:config/sync/language.content_settings.block_content.about_us.yml
+uuid: f9ab8410-78c7-4f76-9f7d-36e0b0c9c6fe
+========
+uuid: b5e71426-2e29-4945-8ee2-d9f45ea6c0f9
+>>>>>>>> fcfaebb (Latest config.):config/sync/language.content_settings.block_content.contact.yml
 langcode: en-gb
 status: true
 dependencies:

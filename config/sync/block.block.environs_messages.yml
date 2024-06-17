@@ -1,6 +1,6 @@
-uuid: 33c6c001-8f8e-4e8d-ad44-98cedc7f1ad7
+uuid: 3260d7c9-736f-4e46-bc78-7d61c568a43d
 langcode: en-gb
-status: false
+status: true
 dependencies:
   module:
     - system
@@ -10,8 +10,8 @@ _core:
   default_config_hash: BZ5tpW7H8X4PVGRm3MImTIHd2tN0eF7zOtp4SpRYUA0
 id: environs_messages
 theme: environs
-region: contact
-weight: -4
+region: top
+weight: -3
 provider: null
 plugin: system_messages_block
 settings:

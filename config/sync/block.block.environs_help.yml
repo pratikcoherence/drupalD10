@@ -1,6 +1,6 @@
-uuid: 0b95f34f-8d65-4fa7-894c-7d5921b7d5c6
+uuid: ff24a29d-895b-4bf8-9bd2-7851ad10e30a
 langcode: en-gb
-status: false
+status: true
 dependencies:
   module:
     - help
@@ -10,8 +10,8 @@ _core:
   default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
 id: environs_help
 theme: environs
-region: contact
-weight: 2
+region: top
+weight: 3
 provider: null
 plugin: help_block
 settings:
