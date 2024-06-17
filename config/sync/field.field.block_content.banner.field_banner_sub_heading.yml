@@ -1,0 +1,22 @@
+uuid: 96b80d7a-f5e1-48bc-8b27-75d8614692df
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.banner
+    - field.storage.block_content.field_banner_sub_heading
+  module:
+    - text
+id: block_content.banner.field_banner_sub_heading
+field_name: field_banner_sub_heading
+entity_type: block_content
+bundle: banner
+label: 'Banner Sub Heading'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

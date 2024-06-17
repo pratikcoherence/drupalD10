@@ -1,0 +1,22 @@
+uuid: 280ec5e7-252b-4108-8929-493937d14993
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.field_title
+  module:
+    - text
+id: block_content.about_us.field_title
+field_name: field_title
+entity_type: block_content
+bundle: about_us
+label: Title
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

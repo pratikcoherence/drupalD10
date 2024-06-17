@@ -1,0 +1,22 @@
+uuid: 8f915750-81b0-4911-b76c-aeddb20db6ac
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.banner
+    - field.storage.block_content.field_banner_description
+  module:
+    - text
+id: block_content.banner.field_banner_description
+field_name: field_banner_description
+entity_type: block_content
+bundle: banner
+label: 'Banner Description'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text_long

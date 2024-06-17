@@ -1,0 +1,20 @@
+uuid: 75789b63-52c8-4492-8259-1e3b2321cba4
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+id: block_content.field_banner_heading
+field_name: field_banner_heading
+entity_type: block_content
+type: text
+settings:
+  max_length: 255
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,22 @@
+uuid: 5040d129-d69e-4a5f-b46f-6f02688db591
+langcode: en-gb
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - environs
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: environs_powered
+theme: environs
+region: contact
+weight: 3
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

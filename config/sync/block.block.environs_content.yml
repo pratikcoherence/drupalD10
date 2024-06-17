@@ -1,0 +1,22 @@
+uuid: 16b80f0a-be1a-4fee-a9c0-09119d22bdc5
+langcode: en-gb
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - environs
+_core:
+  default_config_hash: erQSEZF2XUjNmgTl0uNRBzmg18ZGXwUcw2FhApoeuHk
+id: environs_content
+theme: environs
+region: banner
+weight: -8
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  label_display: '0'
+  provider: system
+visibility: {  }

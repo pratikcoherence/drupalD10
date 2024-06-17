@@ -1,0 +1,22 @@
+uuid: f449a100-b863-4ed7-9c65-24af69941f4a
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.field_feature_goal
+  module:
+    - text
+id: block_content.about_us.field_feature_goal
+field_name: field_feature_goal
+entity_type: block_content
+bundle: about_us
+label: 'Feature Goal'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text

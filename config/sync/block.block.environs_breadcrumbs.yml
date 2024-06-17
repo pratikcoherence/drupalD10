@@ -1,0 +1,22 @@
+uuid: a958b5b4-f797-4a23-a99e-694978180772
+langcode: en-gb
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - environs
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: environs_breadcrumbs
+theme: environs
+region: contact
+weight: 1
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

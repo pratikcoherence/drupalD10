@@ -1,0 +1,22 @@
+uuid: 17e9de61-fbf2-4e8e-9ed1-f95adf35100d
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.field_heading_parent
+  module:
+    - text
+id: block_content.about_us.field_heading_parent
+field_name: field_heading_parent
+entity_type: block_content
+bundle: about_us
+label: 'Heading Parent'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats: {  }
+field_type: text
