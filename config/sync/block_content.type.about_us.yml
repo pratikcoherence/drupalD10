@@ -1,0 +1,8 @@
+uuid: 9bdba426-c861-40bd-a60c-5530d292d93a
+langcode: en-gb
+status: true
+dependencies: {  }
+id: about_us
+label: 'About Us'
+revision: 0
+description: 'Describes the about us page.'

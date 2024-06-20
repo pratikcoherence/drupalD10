@@ -1,0 +1,29 @@
+uuid: 0fc2cb5e-56e8-4b54-88a9-2af36c350abf
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.field.node.achivemennts.body
+    - node.type.achivemennts
+  module:
+    - text
+    - user
+id: node.achivemennts.default
+targetEntityType: node
+bundle: achivemennts
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 101
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  langcode: true

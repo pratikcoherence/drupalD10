@@ -1,0 +1,24 @@
+uuid: 5589acf7-ba73-4cec-90e1-b993eca70b8a
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.communication
+  module:
+    - text
+id: node.communication.body
+field_name: body
+entity_type: node
+bundle: communication
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

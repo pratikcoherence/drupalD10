@@ -1,0 +1,8 @@
+uuid: aba596b2-fc27-4535-bd6c-0b74765f3f9c
+langcode: en-gb
+status: true
+dependencies: {  }
+id: basic_block
+label: 'Custom Basic block'
+revision: 0
+description: 'This describes the basic blocks.'
