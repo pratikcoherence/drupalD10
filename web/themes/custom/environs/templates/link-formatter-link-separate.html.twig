@@ -1,0 +1,9 @@
+
+{% apply spaceless %}
+  {% set new_link = link|split('>') %}
+  {% set link_link = new_link[1]|split('</a') %}
+  {% set new_title %}
+  <i class="fa-brands fa-{{title}}"></i>
+  {% endset %}
+  <a href="{{link_link[0]}}">{{new_title}}</a>
+{% endapply %}
