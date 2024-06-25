@@ -1,0 +1,25 @@
+uuid: 801c8b95-d3c9-4554-9e92-af84a4aad76e
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:social_contact:c4605bd5-69a7-487b-ac38-e5e01f23542c'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_headersocialicons
+theme: environs
+region: contact
+weight: -7
+provider: null
+plugin: 'block_content:c4605bd5-69a7-487b-ac38-e5e01f23542c'
+settings:
+  id: 'block_content:c4605bd5-69a7-487b-ac38-e5e01f23542c'
+  label: 'Header Social Icons'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

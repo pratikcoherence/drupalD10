@@ -1,0 +1,25 @@
+uuid: 5ec8b396-cb8b-4c91-bc7f-857f55b00c0f
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:grid_items:5a723b90-0602-46f7-a550-9dd16f5ca052'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_donation
+theme: environs
+region: content
+weight: -9
+provider: null
+plugin: 'block_content:5a723b90-0602-46f7-a550-9dd16f5ca052'
+settings:
+  id: 'block_content:5a723b90-0602-46f7-a550-9dd16f5ca052'
+  label: Donation
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

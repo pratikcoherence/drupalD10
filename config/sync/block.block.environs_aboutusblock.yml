@@ -1,0 +1,25 @@
+uuid: 1f7aae63-8f84-4f03-8cf6-acb902997ec4
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:home_page_sections:42a5b64a-c029-4017-af25-3f3c56956039'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_aboutusblock
+theme: environs
+region: content
+weight: -11
+provider: null
+plugin: 'block_content:42a5b64a-c029-4017-af25-3f3c56956039'
+settings:
+  id: 'block_content:42a5b64a-c029-4017-af25-3f3c56956039'
+  label: 'About Us Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

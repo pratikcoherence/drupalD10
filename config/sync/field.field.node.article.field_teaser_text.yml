@@ -1,0 +1,28 @@
+uuid: 2725ce1b-ddce-4882-b129-0cc940bfafc6
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_teaser_text
+    - filter.format.basic_html
+    - filter.format.full_html
+    - filter.format.restricted_html
+    - node.type.article
+  module:
+    - text
+id: node.article.field_teaser_text
+field_name: field_teaser_text
+entity_type: node
+bundle: article
+label: 'Teaser Text'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - basic_html
+    - restricted_html
+    - full_html
+field_type: text_long

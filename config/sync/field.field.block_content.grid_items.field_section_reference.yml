@@ -1,0 +1,45 @@
+uuid: 118c3fbc-b96d-4d0e-96d0-0b156b7fd765
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.grid_items
+    - field.storage.block_content.field_section_reference
+    - node.type.about_us
+    - node.type.achivemennts
+    - node.type.article
+    - node.type.banner
+    - node.type.causes
+    - node.type.event
+    - node.type.news
+    - node.type.page
+    - node.type.work
+id: block_content.grid_items.field_section_reference
+field_name: field_section_reference
+entity_type: block_content
+bundle: grid_items
+label: 'grid item'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      about_us: about_us
+      achivemennts: achivemennts
+      article: article
+      banner: banner
+      page: page
+      causes: causes
+      event: event
+      news: news
+      work: work
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: article
+field_type: entity_reference

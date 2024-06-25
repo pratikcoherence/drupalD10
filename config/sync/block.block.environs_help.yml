@@ -1,6 +1,6 @@
 uuid: ff24a29d-895b-4bf8-9bd2-7851ad10e30a
 langcode: en-gb
-status: true
+status: false
 dependencies:
   module:
     - help
@@ -11,7 +11,7 @@ _core:
 id: environs_help
 theme: environs
 region: top
-weight: 3
+weight: 4
 provider: null
 plugin: help_block
 settings:

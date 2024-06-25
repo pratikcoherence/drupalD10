@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.banner.body
+    - field.field.node.banner.field_banner_link
     - node.type.banner
   module:
+    - link
     - path
     - text
 id: node.banner.default
@@ -28,6 +30,14 @@ content:
     weight: 10
     region: content
     settings: {  }
+    third_party_settings: {  }
+  field_banner_link:
+    type: link_default
+    weight: 122
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
     third_party_settings: {  }
   langcode:
     type: language_select

@@ -1,0 +1,24 @@
+uuid: 3c9464c1-b627-4d3d-a0c0-8b3535472bfb
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.grid_items
+    - field.storage.block_content.body
+  module:
+    - text
+id: block_content.grid_items.body
+field_name: body
+entity_type: block_content
+bundle: grid_items
+label: Body
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: false
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

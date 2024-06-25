@@ -1,0 +1,8 @@
+uuid: ac5b33e4-59ff-4280-b8db-1775fc426c17
+langcode: en-gb
+status: true
+dependencies: {  }
+id: home_page_sections
+label: 'Home page sections'
+revision: 0
+description: ''

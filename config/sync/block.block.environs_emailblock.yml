@@ -1,9 +1,9 @@
-uuid: 84eac98d-a30b-4813-9fea-cd176b5287fd
+uuid: 6703213f-793a-4760-9c8d-2a84f8b4d134
 langcode: en-gb
 status: true
 dependencies:
   content:
-    - 'block_content:contact:9e798d42-c51b-4e12-8e43-e6c71b73242e'
+    - 'block_content:contact:26028db7-2b75-453f-a983-528ec99f172d'
   module:
     - block_content
   theme:
@@ -11,11 +11,11 @@ dependencies:
 id: environs_emailblock
 theme: environs
 region: contact
-weight: 0
+weight: -9
 provider: null
-plugin: 'block_content:9e798d42-c51b-4e12-8e43-e6c71b73242e'
+plugin: 'block_content:26028db7-2b75-453f-a983-528ec99f172d'
 settings:
-  id: 'block_content:9e798d42-c51b-4e12-8e43-e6c71b73242e'
+  id: 'block_content:26028db7-2b75-453f-a983-528ec99f172d'
   label: 'Email Block'
   label_display: '0'
   provider: block_content

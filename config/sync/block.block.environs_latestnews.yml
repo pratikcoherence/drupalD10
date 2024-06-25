@@ -1,0 +1,25 @@
+uuid: ddb70a81-5517-4d4e-92a6-b0ced9711d54
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:grid_items:736c3cb8-3254-4ca1-a22f-178cddc88f22'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_latestnews
+theme: environs
+region: content
+weight: -5
+provider: null
+plugin: 'block_content:736c3cb8-3254-4ca1-a22f-178cddc88f22'
+settings:
+  id: 'block_content:736c3cb8-3254-4ca1-a22f-178cddc88f22'
+  label: 'LATEST NEWS'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

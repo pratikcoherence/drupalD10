@@ -2,16 +2,12 @@ uuid: 92197a7c-cf6c-4b6f-8ead-f5c15ca9f6cc
 langcode: en-gb
 status: false
 dependencies:
-  content:
-    - 'block_content:contact_bundle:765be306-bfdf-431b-a0ee-572e6e8dd0e3'
-  module:
-    - block_content
   theme:
     - environs
 id: environs_topemailandphoneblock
 theme: environs
 region: top
-weight: -7
+weight: -6
 provider: null
 plugin: 'block_content:765be306-bfdf-431b-a0ee-572e6e8dd0e3'
 settings:

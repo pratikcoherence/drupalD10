@@ -1,6 +1,6 @@
 uuid: c7ef1774-2392-41f3-8540-a981d355e590
 langcode: en-gb
-status: true
+status: false
 dependencies:
   theme:
     - environs
@@ -9,7 +9,7 @@ _core:
 id: environs_primary_admin_actions
 theme: environs
 region: top
-weight: -5
+weight: -4
 provider: null
 plugin: local_actions_block
 settings:

@@ -1,6 +1,6 @@
 uuid: 3260d7c9-736f-4e46-bc78-7d61c568a43d
 langcode: en-gb
-status: true
+status: false
 dependencies:
   module:
     - system
@@ -11,7 +11,7 @@ _core:
 id: environs_messages
 theme: environs
 region: top
-weight: -3
+weight: -2
 provider: null
 plugin: system_messages_block
 settings:

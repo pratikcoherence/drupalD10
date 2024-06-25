@@ -1,0 +1,13 @@
+<div class="news_section1">
+    <div class="news_content">
+        <div class="news_image">
+            <img src="{{ content.field_image[0]['#markup'] }}">
+            <span>Read Now</span>
+        </div>
+        <div class="news_imagecaption">
+            <h4>{{ label }}</h4>
+            {{ content.body }}
+            <a href="{{ url }}" class="btn btn-read-more">{{ 'Read more'|t }}</a>
+        </div>
+    </div>
+</div>

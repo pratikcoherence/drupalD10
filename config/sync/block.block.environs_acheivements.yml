@@ -1,0 +1,25 @@
+uuid: d0036528-b0d0-4a0c-b119-283007fdb22f
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:grid_items:559481a7-d8cc-49c2-90a3-0fb55273b4fc'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_acheivements
+theme: environs
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:559481a7-d8cc-49c2-90a3-0fb55273b4fc'
+settings:
+  id: 'block_content:559481a7-d8cc-49c2-90a3-0fb55273b4fc'
+  label: Acheivements
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }
