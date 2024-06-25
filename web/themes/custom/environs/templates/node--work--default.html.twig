@@ -1,5 +1,13 @@
-
+<div class="work_image">
     <div class="work_imageleft">
-        {{ content.field_work_image }}
+        <img src="{{content.field_work_image[0]['#markup'] }}">
+        <img src="{{content.field_work_image[1]['#markup'] }}">
+    </div>
+    <div class="work_imagecenter">
+        <img src="{{content.field_work_image[2]['#markup'] }}">
+    </div>
+    <div class="work_imageright">
+        <img src="{{content.field_work_image[3]['#markup'] }}">
+        <img src="{{content.field_work_image[4]['#markup'] }}">
     </div>
 </div>
