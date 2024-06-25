@@ -1,0 +1,29 @@
+uuid: 4a9a423c-81af-4d79-80b1-445891a7f832
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.about_us
+    - field.storage.block_content.field_about_us_block
+    - node.type.article
+id: block_content.about_us.field_about_us_block
+field_name: field_about_us_block
+entity_type: block_content
+bundle: about_us
+label: 'About us block'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

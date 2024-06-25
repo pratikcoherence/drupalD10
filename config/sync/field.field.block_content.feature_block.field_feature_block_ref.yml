@@ -1,0 +1,29 @@
+uuid: 15148b4f-ce0d-4c2e-b256-99539c8027f8
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.feature_block
+    - field.storage.block_content.field_feature_block_ref
+    - node.type.feature
+id: block_content.feature_block.field_feature_block_ref
+field_name: field_feature_block_ref
+entity_type: block_content
+bundle: feature_block
+label: Feature_block_ref
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      feature: feature
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

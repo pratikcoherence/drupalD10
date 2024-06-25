@@ -1,0 +1,25 @@
+uuid: 7d6817e2-19fe-4e38-b85c-a2a2b0bae46d
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:feature_block:81fd20bc-de8c-491f-b2a4-a90abcb8fdf6'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_feature_block
+theme: environs
+region: content
+weight: -8
+provider: null
+plugin: 'block_content:81fd20bc-de8c-491f-b2a4-a90abcb8fdf6'
+settings:
+  id: 'block_content:81fd20bc-de8c-491f-b2a4-a90abcb8fdf6'
+  label: Feature_block
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

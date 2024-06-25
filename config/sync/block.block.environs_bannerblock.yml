@@ -1,0 +1,25 @@
+uuid: 63f75c1a-f7ce-4e7f-8c5a-098773361ef5
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:home_page_section:c3636c88-eeff-462d-96bf-e5c670e506f3'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_bannerblock
+theme: environs
+region: content
+weight: -12
+provider: null
+plugin: 'block_content:c3636c88-eeff-462d-96bf-e5c670e506f3'
+settings:
+  id: 'block_content:c3636c88-eeff-462d-96bf-e5c670e506f3'
+  label: 'Banner Block'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

@@ -1,0 +1,8 @@
+uuid: cbf49f70-e900-4090-bbe9-20372fdf3175
+langcode: en-gb
+status: true
+dependencies: {  }
+id: goal_ref_block
+label: Goal_ref_block
+revision: 0
+description: ''

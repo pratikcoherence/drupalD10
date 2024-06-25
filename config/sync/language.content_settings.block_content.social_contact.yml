@@ -1,0 +1,11 @@
+uuid: d882c8cb-8ab9-4e6d-b5cd-4dc188e4cf9d
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.social_contact
+id: block_content.social_contact
+target_entity_type_id: block_content
+target_bundle: social_contact
+default_langcode: site_default
+language_alterable: false

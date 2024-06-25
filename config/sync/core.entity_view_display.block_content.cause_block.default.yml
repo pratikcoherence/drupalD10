@@ -1,0 +1,42 @@
+uuid: 192e7c1b-9f91-4934-8903-14185d9467bd
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.cause_block
+    - field.field.block_content.cause_block.body
+    - field.field.block_content.cause_block.field_feature_block_ref
+    - field.field.block_content.cause_block.field_goal_title
+  module:
+    - text
+id: block_content.cause_block.default
+targetEntityType: block_content
+bundle: cause_block
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_feature_block_ref:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_goal_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  langcode: true

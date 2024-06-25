@@ -1,0 +1,31 @@
+uuid: 8c689535-16a1-4b57-b67a-aac9a97745d3
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.cause_block
+    - field.storage.block_content.field_feature_block_ref
+    - node.type.causes
+    - node.type.feature
+id: block_content.cause_block.field_feature_block_ref
+field_name: field_feature_block_ref
+entity_type: block_content
+bundle: cause_block
+label: Cause_block_ref
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      causes: causes
+      feature: feature
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: causes
+field_type: entity_reference

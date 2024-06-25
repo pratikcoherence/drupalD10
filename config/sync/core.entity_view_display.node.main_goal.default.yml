@@ -1,33 +1,33 @@
-uuid: 0fc2cb5e-56e8-4b54-88a9-2af36c350abf
+uuid: 1171ec13-dd3e-4680-9464-346022aec225
 langcode: en-gb
 status: true
 dependencies:
   config:
-    - field.field.node.achivemennts.field_icons
-    - field.field.node.achivemennts.field_price
-    - node.type.achivemennts
+    - field.field.node.main_goal.field_goal_content
+    - field.field.node.main_goal.field_image
+    - node.type.main_goal
   module:
+    - image
     - user
-id: node.achivemennts.default
+id: node.main_goal.default
 targetEntityType: node
-bundle: achivemennts
+bundle: main_goal
 mode: default
 content:
-  field_icons:
-    type: string
+  field_goal_content:
+    type: basic_string
     label: hidden
-    settings:
-      link_to_entity: false
+    settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 102
     region: content
-  field_price:
-    type: string
+  field_image:
+    type: image_url
     label: hidden
     settings:
-      link_to_entity: false
+      image_style: ''
     third_party_settings: {  }
-    weight: 103
+    weight: 0
     region: content
   links:
     settings: {  }

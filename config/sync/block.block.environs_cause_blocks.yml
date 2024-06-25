@@ -1,0 +1,25 @@
+uuid: 4bf67e80-2bb7-413b-952e-2e548b5df56c
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:cause_block:16e46521-98b0-4a00-8277-ba43cdacd4e1'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_cause_blocks
+theme: environs
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:16e46521-98b0-4a00-8277-ba43cdacd4e1'
+settings:
+  id: 'block_content:16e46521-98b0-4a00-8277-ba43cdacd4e1'
+  label: Cause_blocks
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

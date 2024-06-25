@@ -1,0 +1,31 @@
+uuid: 9b61b680-b493-4351-b4ac-e07dee58aee8
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.achievements_grid
+    - field.storage.block_content.field_section_ref
+    - node.type.achivemennts
+    - node.type.banner
+id: block_content.achievements_grid.field_section_ref
+field_name: field_section_ref
+entity_type: block_content
+bundle: achievements_grid
+label: 'Achivement Items'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      achivemennts: achivemennts
+      banner: banner
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: achivemennts
+field_type: entity_reference
