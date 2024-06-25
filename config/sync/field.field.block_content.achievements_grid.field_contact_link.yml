@@ -1,0 +1,23 @@
+uuid: 51e1f667-6b35-419b-abfe-32117b3b6b41
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.achievements_grid
+    - field.storage.block_content.field_contact_link
+  module:
+    - link
+id: block_content.achievements_grid.field_contact_link
+field_name: field_contact_link
+entity_type: block_content
+bundle: achievements_grid
+label: 'Achievement link'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  title: 1
+  link_type: 17
+field_type: link

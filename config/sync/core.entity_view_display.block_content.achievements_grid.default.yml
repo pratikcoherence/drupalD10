@@ -1,0 +1,47 @@
+uuid: 0baf6b21-1e52-4701-9092-f2887109465b
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.achievements_grid
+    - field.field.block_content.achievements_grid.body
+    - field.field.block_content.achievements_grid.field_contact_link
+    - field.field.block_content.achievements_grid.field_section_ref
+  module:
+    - link
+    - text
+id: block_content.achievements_grid.default
+targetEntityType: block_content
+bundle: achievements_grid
+mode: default
+content:
+  body:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  field_contact_link:
+    type: link
+    label: hidden
+    settings:
+      trim_length: 80
+      url_only: false
+      url_plain: false
+      rel: ''
+      target: ''
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  field_section_ref:
+    type: entity_reference_entity_view
+    label: hidden
+    settings:
+      view_mode: default
+      link: true
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

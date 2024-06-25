@@ -1,0 +1,11 @@
+<div class="abc">
+	<div class="cardsection">
+		<div class="cardimage">
+			{# <img src="{{ content.field_image}}" /> #}
+            <img src="{{content.field_image[0]['#markup']}}">
+		</div>
+		<div class="cardcaption">
+			{{ content.	field_goal_content}}
+		</div>
+	</div>
+</div>

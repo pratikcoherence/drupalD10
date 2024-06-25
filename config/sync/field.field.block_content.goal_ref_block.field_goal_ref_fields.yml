@@ -1,0 +1,29 @@
+uuid: da71b889-fdfa-4c92-ac63-08224fe5c9ee
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.goal_ref_block
+    - field.storage.block_content.field_goal_ref_fields
+    - node.type.main_goal
+id: block_content.goal_ref_block.field_goal_ref_fields
+field_name: field_goal_ref_fields
+entity_type: block_content
+bundle: goal_ref_block
+label: Goal_ref_fields
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      main_goal: main_goal
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: ''
+field_type: entity_reference

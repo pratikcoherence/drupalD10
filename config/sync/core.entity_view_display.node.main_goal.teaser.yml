@@ -1,0 +1,37 @@
+uuid: 1adc7964-0609-4939-b4c4-61b594a46028
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.main_goal.field_goal_content
+    - field.field.node.main_goal.field_image
+    - image.style.medium
+    - node.type.main_goal
+  module:
+    - image
+    - user
+id: node.main_goal.teaser
+targetEntityType: node
+bundle: main_goal
+mode: teaser
+content:
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: content
+      image_style: medium
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+  links:
+    settings: {  }
+    third_party_settings: {  }
+    weight: 100
+    region: content
+hidden:
+  field_goal_content: true
+  langcode: true
