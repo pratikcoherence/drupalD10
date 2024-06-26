@@ -887,7 +887,7 @@
     position: relative;
   }
   
-  .buttonIn button {
+  .buttonIn input[type="submit"] {
     position: absolute;
     top: 50%;
     left: 80%;
