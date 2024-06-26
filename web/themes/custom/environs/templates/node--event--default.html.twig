@@ -1,0 +1,13 @@
+      <div class="event_section1">
+        <div class="event_content">
+          <div class="event_image">
+            <figure> <img src="{{ content.field_image[0]['#markup'] }}"></figure>
+
+          </div>
+          <div class="event_imagecaption">
+            <h4>{{ label }}</h4>
+            {{ content.body }}
+            <a href="{{ url }}" class="btn btn-read-more">{{ 'Read more'|t }}</a>
+          </div>
+        </div>
+      </div>

@@ -14,3 +14,4 @@ regions:
   top: 'Top Regions'
   content: 'Content Regions'
   bottom: 'Bottom Regions'
+  footer_copyright: 'Footer Copyright'

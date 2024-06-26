@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ * Default theme implementation of a link with separate title and URL elements.
+ *
+ * Available variables:
+ * - link: The link that has already been formatted by l().
+ * - title: (optional) A descriptive or alternate title for the link, which may
+ *   be different than the actual link text.
+ *
+ * @see template_preprocess()
+ * @see template_preprocess_link_formatter_link_separate()
+ *
+ * @ingroup themeable
+ */
+#}
+{% apply spaceless %}
+    {% set icon_link = link|split('>') %}
+    {% set after_icon_link = icon_link[1]|split('</a') %}
+    {% set icon_title %}
+    <i class="fa-brands fa-{{ title }}"></i>
+    {% endset %}
+    <a href="{{ after_icon_link[0] }}"> {{ icon_title }} </a>
+{% endapply %}

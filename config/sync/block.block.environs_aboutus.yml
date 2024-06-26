@@ -1,0 +1,25 @@
+uuid: 86d8352b-8ede-4848-9ddb-6ba5d8f8f005
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:grid_items:c3cbc21e-c0ed-4124-894a-b3fa1dd0befa'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_aboutus
+theme: environs
+region: content
+weight: -10
+provider: null
+plugin: 'block_content:c3cbc21e-c0ed-4124-894a-b3fa1dd0befa'
+settings:
+  id: 'block_content:c3cbc21e-c0ed-4124-894a-b3fa1dd0befa'
+  label: 'About Us'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

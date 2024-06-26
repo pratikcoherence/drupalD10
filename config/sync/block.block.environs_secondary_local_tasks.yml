@@ -1,6 +1,6 @@
 uuid: cd5cc880-463b-4114-8394-e5289eb041d9
 langcode: en-gb
-status: true
+status: false
 dependencies:
   theme:
     - environs
@@ -9,7 +9,7 @@ _core:
 id: environs_secondary_local_tasks
 theme: environs
 region: top
-weight: 1
+weight: 2
 provider: null
 plugin: local_tasks_block
 settings:

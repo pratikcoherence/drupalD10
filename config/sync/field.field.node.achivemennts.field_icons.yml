@@ -1,0 +1,19 @@
+uuid: 659adb14-fa07-423e-941f-8a7f8547ae76
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_icons
+    - node.type.achivemennts
+id: node.achivemennts.field_icons
+field_name: field_icons
+entity_type: node
+bundle: achivemennts
+label: icons
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

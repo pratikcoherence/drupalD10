@@ -1,0 +1,8 @@
+uuid: 1aa36a31-fe00-4490-95f0-889d62675341
+langcode: en-gb
+status: true
+dependencies: {  }
+id: grid_items
+label: 'grid items'
+revision: 0
+description: 'used to create grid structure'

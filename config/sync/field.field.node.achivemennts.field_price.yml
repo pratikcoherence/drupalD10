@@ -1,0 +1,19 @@
+uuid: dba15304-8f92-4a36-9346-f450ab6c640d
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_price
+    - node.type.achivemennts
+id: node.achivemennts.field_price
+field_name: field_price
+entity_type: node
+bundle: achivemennts
+label: price
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,11 @@
+uuid: e14b88a3-8950-435e-a71f-0f90c45a8f62
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.grid_items
+id: block_content.grid_items
+target_entity_type_id: block_content
+target_bundle: grid_items
+default_langcode: site_default
+language_alterable: false

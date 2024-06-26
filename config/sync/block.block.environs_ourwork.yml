@@ -1,0 +1,25 @@
+uuid: fe5a4896-279e-47f2-b62d-6b7a1464402e
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:grid_items:c8c86431-8d06-488c-98e8-95fffef584ff'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_ourwork
+theme: environs
+region: content
+weight: 0
+provider: null
+plugin: 'block_content:c8c86431-8d06-488c-98e8-95fffef584ff'
+settings:
+  id: 'block_content:c8c86431-8d06-488c-98e8-95fffef584ff'
+  label: 'our work'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

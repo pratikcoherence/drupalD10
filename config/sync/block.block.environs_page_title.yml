@@ -1,6 +1,6 @@
 uuid: a4f0dc20-d0a2-4f7e-ba56-db0c5fac1087
 langcode: en-gb
-status: true
+status: false
 dependencies:
   theme:
     - environs
@@ -9,7 +9,7 @@ _core:
 id: environs_page_title
 theme: environs
 region: top
-weight: -6
+weight: -5
 provider: null
 plugin: page_title_block
 settings:

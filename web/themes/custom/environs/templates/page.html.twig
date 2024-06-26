@@ -3,24 +3,27 @@
       <div class="header">
         <div class="header__contact">
             {{ page.contact }}
-          </div>
+        </div>
+            {{ page.social_contact }}
       </div>
 
-      {#<nav>
+      <nav>
         <div class="nav_bar">
-          <div class="nav_topic">
-     <a href="#"><h1>Environs</h1></a>  
-          </div>
-          <div class="nav_options">
-            <a href="#">Home</a>
-            <a href="#">About</a>
-            <a href="#">Service</a>
-            <a href="#">Causes</a>
-            <a href="#">Events</a>
-            <a href="#">Pages</a>
-                   <a href="#">Donate</a>
-          </div>
-      </nav>#}
+          {{ page.top }}
+        </div>
+      </nav>
+    </div>
   </header>
 
-  
+{{ page.content }} 
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer_section">  
+      {{ page.bottom }}    
+    </div>
+    <div class="footer_end">
+      {{ page.footer_copyright }}
+    </div>
+  </div>
+</footer>

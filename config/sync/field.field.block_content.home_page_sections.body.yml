@@ -1,16 +1,16 @@
-uuid: ee30ddc9-ec19-4d62-ac2e-776aa0cf1bfe
+uuid: c4b82111-f8d3-4999-8abe-4513e788a5f1
 langcode: en-gb
 status: true
 dependencies:
   config:
-    - field.storage.node.body
-    - node.type.achivemennts
+    - block_content.type.home_page_sections
+    - field.storage.block_content.body
   module:
     - text
-id: node.achivemennts.body
+id: block_content.home_page_sections.body
 field_name: body
-entity_type: node
-bundle: achivemennts
+entity_type: block_content
+bundle: home_page_sections
 label: Body
 description: ''
 required: false
@@ -18,7 +18,7 @@ translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:
-  display_summary: true
+  display_summary: false
   required_summary: false
   allowed_formats: {  }
 field_type: text_with_summary

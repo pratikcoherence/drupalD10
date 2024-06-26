@@ -1,0 +1,25 @@
+uuid: 30502806-293e-4642-b212-aa983c2617db
+langcode: en-gb
+status: true
+dependencies:
+  content:
+    - 'block_content:grid_items:36b9a0b2-ec6a-4e87-97a7-c73543a767c2'
+  module:
+    - block_content
+  theme:
+    - environs
+id: environs_recentcauses
+theme: environs
+region: content
+weight: -7
+provider: null
+plugin: 'block_content:36b9a0b2-ec6a-4e87-97a7-c73543a767c2'
+settings:
+  id: 'block_content:36b9a0b2-ec6a-4e87-97a7-c73543a767c2'
+  label: 'RECENT CAUSES'
+  label_display: visible
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

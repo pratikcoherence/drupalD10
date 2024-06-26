@@ -4,8 +4,10 @@ status: true
 dependencies:
   config:
     - field.field.node.causes.body
+    - field.field.node.causes.field_image
     - node.type.causes
   module:
+    - image
     - text
     - user
 id: node.causes.default
@@ -18,12 +20,20 @@ content:
     label: hidden
     settings: {  }
     third_party_settings: {  }
-    weight: 101
+    weight: 0
+    region: content
+  field_image:
+    type: image_url
+    label: hidden
+    settings:
+      image_style: wide
+    third_party_settings: {  }
+    weight: 0
     region: content
   links:
     settings: {  }
     third_party_settings: {  }
-    weight: 100
+    weight: 2
     region: content
 hidden:
   langcode: true

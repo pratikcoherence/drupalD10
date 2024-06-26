@@ -1,0 +1,30 @@
+uuid: 7f5f8c2f-9091-47c8-ae49-71ac9ab15395
+langcode: en-gb
+status: true
+dependencies:
+  module:
+    - file
+    - image
+    - node
+id: node.field_bg_image
+field_name: field_bg_image
+entity_type: node
+type: image
+settings:
+  target_type: file
+  display_field: false
+  display_default: false
+  uri_scheme: public
+  default_image:
+    uuid: 6525bc65-c07b-46ea-986a-109dc4276198
+    alt: ''
+    title: ''
+    width: 480
+    height: 640
+module: image
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

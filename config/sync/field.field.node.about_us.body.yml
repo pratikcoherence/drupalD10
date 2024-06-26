@@ -1,16 +1,16 @@
-uuid: c8778506-d92f-4321-ae55-262d9a14a608
+uuid: 6854c0fd-0f74-4ff0-a49e-c687615925f2
 langcode: en-gb
 status: true
 dependencies:
   config:
     - field.storage.node.body
-    - node.type.work
+    - node.type.about_us
   module:
     - text
-id: node.work.body
+id: node.about_us.body
 field_name: body
 entity_type: node
-bundle: work
+bundle: about_us
 label: Body
 description: ''
 required: false

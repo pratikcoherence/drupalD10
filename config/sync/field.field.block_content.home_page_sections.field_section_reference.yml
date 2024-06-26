@@ -1,0 +1,31 @@
+uuid: 13be0db9-cde7-43f4-b82e-fc79e5f59d9e
+langcode: en-gb
+status: true
+dependencies:
+  config:
+    - block_content.type.home_page_sections
+    - field.storage.block_content.field_section_reference
+    - node.type.article
+    - node.type.banner
+id: block_content.home_page_sections.field_section_reference
+field_name: field_section_reference
+entity_type: block_content
+bundle: home_page_sections
+label: 'Section Reference'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:node'
+  handler_settings:
+    target_bundles:
+      article: article
+      banner: banner
+    sort:
+      field: _none
+      direction: ASC
+    auto_create: false
+    auto_create_bundle: article
+field_type: entity_reference
